@@ -19,19 +19,6 @@ This repository contains a simple Python app, automated tests, workflow configur
 
 ---
 
-## ⚙️ How the CI/CD Pipeline Works
-
-```mermaid
-flowchart LR
-    A[Push to GitHub] --> B[GitHub Actions Trigger]
-    B --> C[Install Dependencies]
-    C --> D[Run Unit Tests]
-    D --> E{Tests Passed?}
-    E -- Yes --> F[Build Success ✔]
-    E -- No --> G[Build Fails ❌]
-
----
-
 # ✅ **2. Short, Clean, Professional README**
 
 ```markdown
@@ -55,9 +42,6 @@ Run the app:
 ```bash
 python app.py
 
-
----
-
 # ✅ **3. Long, Fully Documented README (Enterprise Style)**
 
 *(I can send this if you'd like — more detailed, 2–3× longer, includes workflows, screenshots, advanced pipeline diagrams, etc.)*
@@ -76,3 +60,14 @@ I can customize it with:
 ✅ A more fun / humorous tone  
 
 Just tell me **what style you want next!**
+
+## ⚙️ How the CI/CD Pipeline Works
+
+```mermaid
+flowchart LR
+    A[Push to GitHub] --> B[GitHub Actions Trigger]
+    B --> C[Install Dependencies]
+    C --> D[Run Unit Tests]
+    D --> E{Tests Passed?}
+    E -- Yes --> F[Build Success ✔]
+    E -- No --> G[Build Fails ❌]
