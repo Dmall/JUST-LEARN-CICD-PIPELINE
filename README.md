@@ -42,6 +42,15 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+5. Push Your Own Github Account
+```bash
+git add .
+git commit -m "CI"
+git push origin main
+```
+
+## After Pushing Your Code You Can See In Your Project's Actions Tab, Your CI Is Running Successfully
+
 ## ⚙️ How the CI/CD Pipeline Works
 
 ```mermaid
