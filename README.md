@@ -19,20 +19,6 @@ This repository contains a simple Python app, automated tests, workflow configur
 
 ---
 
-## 🏗️ Project Structure
-
-JUST-LEARN-CICD-PIPELINE/
-├── .github/workflows/
-│ └── ci-cd.yml
-├── notes/
-├── CI-Notes.pdf
-├── app.py
-├── _test.py
-└── LICENSE
-
-
----
-
 ## ⚙️ How the CI/CD Pipeline Works
 
 ```mermaid
