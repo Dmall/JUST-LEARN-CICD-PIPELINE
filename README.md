@@ -35,7 +35,6 @@ JUST-LEARN-CICD-PIPELINE/
 
 ## ⚙️ How the CI/CD Pipeline Works
 
-```mermaid
 flowchart LR
     A[Push to GitHub] --> B[GitHub Actions Trigger]
     B --> C[Install Dependencies]
@@ -43,6 +42,4 @@ flowchart LR
     D --> E{Tests Passed?}
     E -- Yes --> F[Build Success ✔]
     E -- No --> G[Build Fails ❌]
-
-
 ---
