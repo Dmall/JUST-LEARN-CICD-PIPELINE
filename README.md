@@ -48,11 +48,16 @@ git add .
 git commit -m "CI"
 git push origin main
 ```
+
+--- 
+
 # 📝 Notes
 
 - "After Pushing Your Code You Can See In Your Project's Actions Tab, Your CI Is Running Successfully"
 
 ## ⚙️ How the CI/CD Pipeline Works
+
+---
 
 ```mermaid
 flowchart LR
