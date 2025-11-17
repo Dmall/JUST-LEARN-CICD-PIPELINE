@@ -19,6 +19,29 @@ This repository contains a simple Python app, automated tests, workflow configur
 
 ---
 
+### Project Setup
+
+1. Clone the Repository
+```bash
+git clone <repository-url>
+cd <repository-url>
+```
+
+2. Create Virtual Environment
+```bash
+conda create -p env python=3.10 -y
+```
+
+3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the Application
+```bash
+streamlit run app.py
+```
+
 ## ⚙️ How the CI/CD Pipeline Works
 
 ```mermaid
