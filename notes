@@ -1,0 +1,5 @@
+1. For CICD Automation We have "Github-Actions" 
+
+2. For use Github-Actions We have to create ".github" floder and in this folder we have to create also a folder named "workflows" and after that we have create a file with ".yaml" extension in this file we have to write how will our "CI" flow be. We have to create a file named "_test.py" in this file we have to write test-cases or standardization.
+
+3. upar ka pura hone ke baad hume is code ko github me push karna hai usek baad hume is github-project ke ander "actions" bar ke andar jakar hum dekh sakte hai. ki-kya chal raha hai.
